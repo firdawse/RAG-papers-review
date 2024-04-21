@@ -26,7 +26,7 @@ Source: [2404.10981.pdf (arxiv.org)](https://arxiv.org/pdf/2404.10981.pdf)
 
 Evaluating language models (LM) continues to pose challenges for many. Whether you're refining a model's accuracy through fine-tuning or enhancing a Retrieval-Augmented Generation (RAG) system's contextual relevancy, grasping the process of developing and selecting the right LLM evaluation metrics for your specific use case is crucial for establishing a robust LLM evaluation pipeline.
 
-This taxonomy tries to combine and organize metrics and tools used to evaluate RAG systems based on some paper reviews.
+This taxonomy tries to combine and organize metrics and tools used to evaluate RAG systems based on reviews from several papers..
 
 ![Untitled](RAG%20Papers%20review%2078ff49fce0a849b4bf3f8fcfd80bbe97/Untitled%201.png)
 
