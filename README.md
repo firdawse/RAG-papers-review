@@ -46,7 +46,7 @@ Then, there are other metrics that can be categorized as order-aware since they 
 - **MAP (Mean Average Precision)**: Takes into consideration the entire retrieved list and evaluates the average precision at all the relevant ranks within the top K.
 - **NDCG (Normalized Discounted Cumulative Gain)**: Tries to evaluate the match with the ideal order, comparing ranking to an ideal order where all the relevant items are at the top of the list. It calculates the DCG, which is the sum of relevant items over the log of its rank, normalized by the Ideal NGC where we put all the relevant items at the top. It's based on the idea that items that are higher in the rank should be given more credit. It's similar to MAP but more sensitive to rank order.
 
-Context relevance can also be measured by LLM. RAGAS, Trulens, and RAGAS in general are some open-source frameworks for evaluating RAG pipelines based on LLM reasoning guided by a specific prompt.
+Context relevance can also be measured by LLM. RAGAS, Trulens, and ARES in general are some open-source frameworks for evaluating RAG pipelines based on LLM reasoning guided by a specific prompt.
 
 The second part of the taxonomy focuses on generation quality. Here, we evaluate aspects such as faithfulness or groundedness, which determine how well the final response aligns with the retrieved information. These evaluations can be conducted using frameworks like RAGAS, Trulens, and ARES.
 
