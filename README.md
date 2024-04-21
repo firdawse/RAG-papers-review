@@ -1,4 +1,4 @@
-
+```markdown
 # RAG Papers Review
 
 - Table of Contents:
@@ -14,6 +14,7 @@
     - [Corrective RAG](#corrective-rag)
     - [RAT (Retrieval Augmented Thoughts)](#rat-retrieval-augmented-thoughts)
   - [Insight from ARAGOG Study](#insight-from-aragog-study)
+  - [References](#references)
 
 ## What is a RAG System?
 Retrieval augmented generation (RAG) is a strategy designed to address both LLM hallucinations and outdated training data. The RAG workflow consists of three key steps. First, the corpus is divided into discrete chunks, and vector indices are created using an encoder model. Second, RAG identifies and retrieves chunks based on their vector similarity to the query and indexed chunks. Finally, the model generates a response conditioned on the contextual information obtained from the retrieved chunks. RAG enables language models to circumvent the need for retraining, allowing access to the latest information for generating reliable outputs through retrieval-based generation.
@@ -26,7 +27,7 @@ Source: [2404.10981.pdf (arxiv.org)](https://arxiv.org/pdf/2404.10981.pdf)
 
 Evaluating language models (LM) continues to pose challenges for many. Whether you're refining a model's accuracy through fine-tuning or enhancing a Retrieval-Augmented Generation (RAG) system's contextual relevancy, grasping the process of developing and selecting the right LLM evaluation metrics for your specific use case is crucial for establishing a robust LLM evaluation pipeline.
 
-This taxonomy tries to combine and organize metrics and tools used to evaluate RAG systems based on reviews from several papers..
+This taxonomy attempts to combine and organize metrics and tools used to evaluate RAG systems based on reviews from several papers.
 
 ![Untitled](RAG%20Papers%20review%2078ff49fce0a849b4bf3f8fcfd80bbe97/Untitled%201.png)
 
@@ -62,8 +63,6 @@ Transitioning to model-based metrics:
 
 ![Untitled](RAG%20Papers%20review%2078ff49fce0a849b4bf3f8fcfd80bbe97/Untitled%202.png)
 
-
-
 - BERTScore: Focuses on the similarity between reference and prediction. It starts by generating BERT embeddings for both reference and generated answers, computes pairwise cosine similarity, creates a similarity matrix, sums the maximum similarities, and then normalizes to derive recall and precision scores before calculating the F1 BERTScore.
 - MoverScore: Unlike BERTScore's hard alignment, relies on soft alignment, allowing for many-to-one mappings of semantically related words between two sequences. This approach minimizes the effort needed to transform between texts, utilizing the Earth Mover's Distance to compute the minimal cost required to transform word distributions between an LM output and a reference text.
 
@@ -73,7 +72,9 @@ For evaluating answers without ground truth:
 
 ![Untitled](RAG%20Papers%20review%2078ff49fce0a849b4bf3f8fcfd80bbe97/Untitled%203.png)
 
-- **Self-Check GPT:** Employs a sample-based approach, assuming that hallucinated outputs are not reproducible. It generates multiple answers and evaluates each sample against the responses to determine if they are supported by all generated sentences, resulting in an accuracy score. This approach is suitable only for hallucination evaluation, not for other cases.
+- **Self-Check GPT:** Employs a sample-based approach, assuming that hallucinated outputs are not reproducible. It generates multiple answers and evaluates each sample against
+
+ the responses to determine if they are supported by all generated sentences, resulting in an accuracy score. This approach is suitable only for hallucination evaluation, not for other cases.
 
 ![Untitled](RAG%20Papers%20review%2078ff49fce0a849b4bf3f8fcfd80bbe97/Untitled%204.png)
 
@@ -137,7 +138,9 @@ The performance of your RAG solution depends on how well the data is cleaned and
 
     This approach encourages the language model to think beyond specific examples and focus on broader concepts and principles.
 
-    This template replicates the “Step-Back” prompting technique that improves performance on complex questions by first asking a “step back” question. This technique can be combined with standard question-answering RAG applications by retrieving information for both the original and step-back questions. Below is an example of a step-back prompt.
+    This template replicates the “Step-Back” prompting technique that
+
+ improves performance on complex questions by first asking a “step back” question. This technique can be combined with standard question-answering RAG applications by retrieving information for both the original and step-back questions. Below is an example of a step-back prompt.
 
     ![Untitled](RAG%20Papers%20review%2078ff49fce0a849b4bf3f8fcfd80bbe97/Untitled%209.png)
 
