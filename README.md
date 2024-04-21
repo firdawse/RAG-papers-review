@@ -1,4 +1,4 @@
-```markdown
+
 # RAG Papers Review
 
 - Table of Contents:
