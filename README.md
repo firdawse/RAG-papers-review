@@ -78,9 +78,7 @@ For evaluating answers without ground truth:
 
 ![Untitled](RAG%20Papers%20review%2078ff49fce0a849b4bf3f8fcfd80bbe97/Untitled%204.png)
 
-Additionally, specific abilities can be evaluated, such as noise robustness, calculated using accuracy or precision, negative
-
- rejection, evaluated in RGB benchmarks based on EM, information integration assessed using EM scores, and counterfactual robustness measured using **R-rate**, which is the proportion of edited words appearing in the model’s outputs in all edited words for text generation task, and **M-rate**, which is the proportion of the queries that the model answers wrongly with edited contexts in all queries that the model can answer correctly without external knowledge for question-answer tasks.
+Additionally, specific abilities can be evaluated, such as noise robustness, calculated using accuracy or precision, negative rejection, evaluated in RGB benchmarks based on EM, information integration assessed using EM scores, and counterfactual robustness measured using **R-rate**, which is the proportion of edited words appearing in the model’s outputs in all edited words for text generation task, and **M-rate**, which is the proportion of the queries that the model answers wrongly with edited contexts in all queries that the model can answer correctly without external knowledge for question-answer tasks.
 
 ## Existing RAG Benchmarks:
 
