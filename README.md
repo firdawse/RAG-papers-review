@@ -33,7 +33,7 @@ This taxonomy attempts to combine and organize metrics and tools used to evaluat
 
 RAG evaluation taxonomy can be divided into two primary targets: retrieval quality and generation quality.
 
-For retrieval quality, the focus is on how relevant the retrieved documents are to the query. This aspect can be measured based on some order-agnostic metrics that are indifferent to the ranking of retrieved documents, such as:
+For retrieval quality, the focus is on how relevant the retrieved documents are to the query. This aspect can be measured based on some order-anware metrics that are indifferent to the ranking of retrieved documents, such as:
 
 - **RECALL@k**: Measures the proportion of correctly identified relevant items in the top K recommendations out of the total number of relevant items in the dataset.
 - **Precision@k**: Measures the number of relevant items over the total number of items.
