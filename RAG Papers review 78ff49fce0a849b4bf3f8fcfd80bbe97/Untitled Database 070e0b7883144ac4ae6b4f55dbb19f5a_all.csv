@@ -1,0 +1,52 @@
+﻿Title,Column 1,Column 2,Column 3,Column 4,Column 5,Column 6,Column 7,Column 8,Column 9,Column 10
+Benchmark,"Code Available ",Dataset,Task,Abilities evaluated,metrics,mitigating methods,Phase evaluated,Generation Models,Retrieval models,"Weaknesses "
+https://arxiv.org/pdf/2309.01431.pdf,https://github.com/chen700564/RGB,https://github.com/chen700564/RGB,Question Answering,"noise robustness, negative
+rejection, information integration, counterfactual robustness","Accuracy Rejection rate
+Error detection rate
+Error correction rate",N/A,Generation,"ChatGPT
+ChatGLM-6B 
+ChatGLM2-6B 
+Vicuna-7B-v1.3
+Qwen-7B-Chat
+BELLE-7B-2M
+",,"-Error analysis lacking evidence
+-No additional approaches were evaluated."
+https://arxiv.org/pdf/2311.08147.pdf,No,No,"Question Answering 
+Text Generation
+",counterfactual robustness,"Accuracy
+BLEU
+ROUGE-L
+Misleading Rate (M-Rate)
+Mistake Reappearance
+Rate (R-Rate)","Prompting 
+DOLA",Generation,"ChatGLM2
+Llama2
+Vicuna
+Baichuan2",,"- No available source code.
+-No explanation of the choice of the mitigating techniques.
+- Experiments based on only 3 random seeds.
+- Resources allocated not mentioned.
+
+
+
+
+"
+https://arxiv.org/abs/2401.15391,https://github.com/yixuantt/,https://github.com/yixuantt/,Question Answering,information integration,"Mean Average Precision at K (MAP@K)
+Hit Rate at K (Hit@K)
+Mean Reciprocal
+Rank at K (MRR@K)","Reranker
+","Retrieval 
+Generation","GPT-4
+ChatGPT
+Llama-2-70b-chat-hf
+Mixtral-8x7B-Instruct
+Claude-2.1
+Google-PaLM","text-embedding ada-002
+text-search ada-query-001
+llm-embedder
+bge-large-en-v1.5
+jina-embeddings-v2-base-en
+intfloat/e5-base-v2
+voyage-02
+hkunlp/instructor-large","- Resources allocated not mentioned.
+- Additional approaches could be evaluated"
