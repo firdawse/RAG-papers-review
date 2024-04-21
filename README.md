@@ -136,9 +136,7 @@ The performance of your RAG solution depends on how well the data is cleaned and
 
     This approach encourages the language model to think beyond specific examples and focus on broader concepts and principles.
 
-    This template replicates the “Step-Back” prompting technique that
-
- improves performance on complex questions by first asking a “step back” question. This technique can be combined with standard question-answering RAG applications by retrieving information for both the original and step-back questions. Below is an example of a step-back prompt.
+    This template replicates the “Step-Back” prompting technique thatimproves performance on complex questions by first asking a “step back” question. This technique can be combined with standard question-answering RAG applications by retrieving information for both the original and step-back questions. Below is an example of a step-back prompt.
 
     ![Untitled](RAG%20Papers%20review%2078ff49fce0a849b4bf3f8fcfd80bbe97/Untitled%209.png)
 
