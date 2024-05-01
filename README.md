@@ -29,7 +29,7 @@ Evaluating language models (LM) continues to pose challenges for many. Whether y
 
 This taxonomy attempts to combine and organize metrics and tools used to evaluate RAG systems based on reviews from several papers.
 
-![Untitled](RAG%20Papers%20review%2078ff49fce0a849b4bf3f8fcfd80bbe97/Untitled%201.png)
+![Untitled](1.png)
 
 RAG evaluation taxonomy can be divided into two primary targets: retrieval quality and generation quality.
 
