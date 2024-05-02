@@ -110,14 +110,6 @@ The performance of your RAG solution depends on how well the data is cleaned and
 
     ![Untitled](RAG%20Papers%20review%2078ff49fce0a849b4bf3f8fcfd80bbe97/Untitled%206.png)
 
-1. **Semantic Chunking:**
-
-    Semantic Chunking considers the relationships within the text. It divides the text into meaningful, semantically complete chunks. This approach ensures the information's integrity during retrieval, leading to a more accurate and contextually appropriate outcome.
-
-    Semantic chunking involves taking the embeddings of every sentence in the document, comparing the similarity of all sentences with each other, and then grouping sentences with the most similar embeddings together.
-
-    ![Untitled](RAG%20Papers%20review%2078ff49fce0a849b4bf3f8fcfd80bbe97/Untitled%207.png)
-
 ### Retrieval Techniques:
 
 1. **Hyde:**
